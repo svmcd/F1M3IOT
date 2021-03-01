@@ -31,10 +31,10 @@
                  // hier moet jij zelf code schrijven
                     
                 case "easter egg":
-                    print " <br> hier moet jij zelf code schrijven";
+                    print " <br> dit is de easter egg!";
                     break;
-                case "bedenk zelf een code":
-                    // jouw code hier
+                case "datum";
+                    echo " <br> de datum van vandaag is " . date("d/m/Y") . "<br>";
                     break;
                   // einde eigen code  
                 default:
